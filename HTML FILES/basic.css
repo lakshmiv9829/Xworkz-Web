@@ -1,0 +1,73 @@
+
+body{
+    
+        color: red;
+        font-size:40px;
+        text-align: center;/*text-align should be center,right,left*/
+        text-decoration-line: underline;/*for underline we can use <u> tag or text-decoration-line:underline*/
+        text-transform:uppercase;  /*uppercase =>all leters will become uppercase , lowercase=>all leters become lowercase ,capitalize=>only first letter become uppercase*/
+        background-color: rgb(233, 224, 224);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY5xLzQzyEjDAlPJIzmrdxBtskaaZC3tfWsg&usqp=CAU);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+
+      h1{
+
+color:blue;
+background-color:rgb(14, 6, 1);
+font-size: 50px;
+text-align: center;
+margin-left: 20px;
+margin-right: 20px;
+      }
+h2{
+    text-align: center;
+}
+h1,h2{
+    color:blue;
+
+}
+
+
+
+.new{
+    font-size: 50px;
+    padding: 50px 20px 10px 10px;
+    border: 2px solid rgb(12, 1, 1);
+    margin-left: 10px;
+}
+.box{
+    border: 2px solid black;
+    margin: 20px;
+    padding:20px;
+    width: 100px;
+    height:100px;
+
+}
+.box1{
+    border: 2px solid black;
+    margin: 30px;
+    
+    width: 50px;
+    height:50px;
+    margin: 20px;
+}
+    
+.box2{
+    
+        border: 2px solid black;
+        margin: 20px;
+        padding:20px;
+        width: 50px;
+        height:50px;
+        background-color: chartreuse;
+
+}
+.box2:hover{
+    background-color: rgb(237, 100, 123);
+}
+
+.new:hover{
+    color: rgb(208, 219, 210);
+}
